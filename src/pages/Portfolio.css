@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.wrapper{
+    margin:3em 0;
+}
+.list-group-item,.list-group-item:visited,.list-group-item:hover,.list-group-item:active{
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    position:relative;
+    transition:0.5s color ease;
+    text-decoration:none;
+
+    font-size:1em;
+}
+.list-group-item:hover{
+    color:black;
+}
+.list-group-item.before:before,.list-group-item.after:after{
+    content: "";
+    transition:0.5s all ease;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    position:absolute;
+}
+.list-group-item.before:before{
+    top:-0.25em;
+}
+.list-group-item.after:after{
+    bottom:-0.25em;
+}
+.list-group-item.before:before,a.after:after{
+    height:5px;
+    height:0.35rem;
+    width:0;
+    background:#d73444;
+}
+
+.list-group-item.eigth:before{
+    left:0;
+}
+.list-group-item.eigth:after{
+    right:0;
+}
+.list-group-item.before:hover:before,.list-group-item.after:hover:after{
+    width:100%;
+}
+.square{
+    box-sizing:border-box;
+    margin-left:-0.4em;
+    position:relative;
+    font-size:2.5em;
+    overflow:hidden;
+}
+.square .list-group-item{
+    position:static;
+    font-size:100%;
+    padding:0.2em 0.4em;
+}
+.square:before,.square:after{
+    content: "";
+    box-sizing:border-box;
+    transition:0.25s all ease;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    position:absolute;
+    width:5px;
+    width:0.35rem;
+    height:0;
+    background:#d73444;
+}
+.square:before{
+    left:0;
+    bottom:-0.2em;
+}
+.square.individual:before{
+    transition-delay:0.6s;
+}
+.square:after{
+    right:0;
+    top:-0.2em;
+}
+.square.individual:after{
+    transition-delay:0.2s;
+}
+.square a:before{
+    left:0;
+    transition:0.25s all ease;
+}
+.square a:after{
+    right:0;
+    transition:0.25s all ease;
+}
+.square.individual a:after{
+    transition:0.25s all ease 0.4s;
+}
+.square:hover:before,.square:hover:after{
+    height:calc(100% + 0.4em);
+}
+.square:hover a:before,.square:hover a:after{
+    width:100%;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: red !important;
+    background-color: white !important;
+    border-color: lightgray;
+}

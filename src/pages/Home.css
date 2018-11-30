@@ -1,0 +1,72 @@
+.home-main{
+    text-align: center;
+}
+
+/*.intro-link{*/
+    /*color: #282c34;*/
+    /*background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);*/
+    /*background-position: 0 100%;*/
+    /*background-repeat: repeat-x;*/
+    /*background-size: 3px 3px;*/
+    /*color: #000;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.intro-link:hover {*/
+    /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");*/
+    /*background-position: 0 100%;*/
+    /*background-size: auto 6px;*/
+    /*background-repeat: repeat-x;*/
+    /*text-decoration: none;*/
+    /*color: black;*/
+/*}*/
+/*:root {*/
+    /*--mainColor: #ff9800;*/
+/*}*/
+
+.home-wrapper {
+
+    font-size: 4vw;
+    font-weight: 100;
+    font-family: "Roboto Slab", serif;
+}
+
+.intro-link {
+    color: #000;
+    text-decoration: none;
+}
+.intro-link span {
+    font-weight: 100;
+    transition: all 0.5s;
+    border-bottom: 1px solid;
+}
+.intro-link span:nth-child(2) {
+    transition-delay: 0.1s;
+}
+.intro-link span:nth-child(3) {
+    transition-delay: 0.2s;
+}
+.intro-link span:nth-child(4) {
+    transition-delay: 0.3s;
+}
+.intro-link:hover span {
+    font-weight: 700;
+}
+.intro-link:hover span:nth-child(4) {
+    transition-delay: 0.3s;
+}
+.intro-link:hover span:nth-child(3) {
+    transition-delay: 0.2s;
+}
+.intro-link:hover span:nth-child(2) {
+    transition-delay: 0.1s;
+}
+.intro-link:hover span:nth-child(1) {
+    transition-delay: 0s;
+}
+.intro-link.hover-shadow:hover {
+    text-shadow: 1px 1px 0px #ddd, 2px 2px 0px #ddd, 3px 3px 0px #ddd;
+}
+.intro-link.hover-color:hover {
+    border-color: darkmagenta;
+}

@@ -1,0 +1,80 @@
+
+/* Education
+-------------------------*/
+.education  {
+    color: white;
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 1));
+    /*background-image: url(../images/starry-sky.jpeg);*/
+    background-size: cover;
+    /*opacity: 0.6;*/
+    width:  100%;
+    overflow: auto;
+
+}
+p + h3 {
+    margin-top: 30px;
+}
+
+.education-description {
+    margin-bottom: 25px;
+}
+.education-description p:first-of-type {
+    margin-top: 0;
+}
+
+.education a{
+    color: brown;
+}
+.education a:hover{
+    color: red;
+}
+
+/* Work Experience
+-------------------------*/
+.work  {
+}
+h3 ~ p {
+    margin: 0;
+}
+.job-description {
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/* Army Service
+-------------------------*/
+.army  {
+
+}
+h3 ~ p {
+    margin: 0;
+}
+.job-description {
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 899px){
+    header {
+        text-align: center;
+    }
+}
+

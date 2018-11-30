@@ -1,0 +1,62 @@
+.jumbotron {
+    background-image: url(../images/starry-sky.jpeg);
+    background-color: dimgrey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+    overflow:auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /*margin-bottom: 0;*/
+}
+
+.profile {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float:right;
+    overflow:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://i.imgur.com/eOrMNFO.jpg);
+    float: left;
+}
+
+/* Download button */
+.download {
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-top: 3px;
+}
+
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 25%;
+        float: left;
+    }
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+    .profile{
+        width: 150px;
+        margin-right: 20px ;
+    }
+}
+@media (max-width: 899px){
+    header {
+        text-align: center;
+    }
+    .profile{
+        width: 150px;
+    }
+}

@@ -1,0 +1,16 @@
+.navbar-brand {
+    color: dimgrey;
+}
+
+.nav-link {
+    color: dimgrey ;
+}
+
+.nav-link:hover {
+    color: #333333 ;
+}
+
+nav {
+
+    font-weight: bold;
+}

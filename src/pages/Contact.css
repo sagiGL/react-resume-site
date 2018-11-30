@@ -1,0 +1,13 @@
+.button-pusher{
+    margin-bottom: 20px;
+}
+
+.fa-contact {
+    margin-right: 15px;
+    color: dimgrey;
+    font-size: 20px;
+}
+
+.fa-contact:hover {
+    color: red;
+}
