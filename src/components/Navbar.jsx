@@ -7,10 +7,14 @@ class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar sticky-top navbar-expand-sm bg-light">
+                <nav className="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
                     <div className="container">
-                        <a className="navbar-brand" href="/">PumpkinWork
-                        </a>
+                        <a className="navbar-brand" href="/">PumpkinWork</a>
+                        <button className="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarText" aria-controls="navbar-options" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
                         <div className="collapse navbar-collapse" id="navbar-options">
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
