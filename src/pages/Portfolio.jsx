@@ -50,6 +50,9 @@ class Portfolio extends Component {
                               <a className="list-group-item list-group-item-action eigth before after warpper" id="list-resume-web-site"
                                  data-toggle="list" href="#old-resume-web-site" role="tab" aria-controls="old-resume-web-site">Old Resume Web Site</a>
 
+                              <a className="list-group-item list-group-item-action eigth before afterwarpper" id="list-tinbak"
+                                 data-toggle="list" href="#tinbark" role="tab" aria-controls="tinbark">Tinbak</a>
+
                               <a className="list-group-item list-group-item-action eigth before after warpper" id="list-crud-personal-webapp"
                                  data-toggle="list" href="#crud-personal-webapp" role="tab" aria-controls="crud-personal-webapp">crud personal</a>
 
@@ -61,9 +64,6 @@ class Portfolio extends Component {
 
                               <a className="list-group-item list-group-item-action eigth before after warpper" id="list-login-page"
                                  data-toggle="list" href="#login-page" role="tab" aria-controls="login-page">Login & Register</a>
-
-                              <a className="list-group-item list-group-item-action eigth before afterwarpper" id="list-format-function"
-                                 data-toggle="list" href="#format-function" role="tab" aria-controls="format-function">Format Functionality</a>
 
                               <a className="list-group-item list-group-item-action eigth before after warpper" id="list-garage-manager"
                                  data-toggle="list" href="#garage-manager" role="tab" aria-controls="home">Garage Manager</a>
@@ -84,43 +84,43 @@ class Portfolio extends Component {
                               <div className="tab-pane fade show active" id="resume-web-site" role="tabpanel" aria-labelledby="resume-web-site">
                                   <a href="https://github.com/sagiGL/react-resume-site" ><h2>Resume Web Site <div className="fa fa-github"> </div></h2></a>
                                   <p>A simple React single page website used for resume. it has some functionality but most of it is Keep It Simple.</p>
-                                  <img src="https://i.imgur.com/HnzMcYE.jpg" className="rounded mx-auto d-block img-fluid" alt="Responsive"></img>
+                                  <img src="https://i.imgur.com/HnzMcYE.jpg" className="rounded mx-auto d-block img-fluid" alt="Responsive"/>
                               </div>
 
                               <div className="tab-pane fade" id="old-resume-web-site" role="tabpanel" aria-labelledby="old-resume-web-site">
                                   <a href="https://github.com/sagiGL/ResumeSite" ><h2>Old Resume Web Site <div className="fa fa-github"> </div></h2></a>
                                   <p>A pure HTML & CSS webpage for 1 page resume site</p>
-                                  <img src="https://i.imgur.com/hj0GjyE.png" className="rounded mx-auto d-block img-fluid" alt="Responsive"></img>
+                                  <img src="https://i.imgur.com/hj0GjyE.png" className="rounded mx-auto d-block img-fluid" alt="Responsive"/>
+                              </div>
+
+                              <div className="tab-pane fade" id="tinbark" role="tabpanel" aria-labelledby="tinbark">
+                                  <a href="https://github.com/sagiGL/Tinbark" ><h2>Tinbak - Pet Adoption Web/mobile Application<div  className="fa fa-github"> </div></h2></a>
+                                  <p>A React Web/Mobile Application for pet adoption</p>
+                                  <img src="https://i.imgur.com/yPQKGTf.jpg" className="rounded mx-auto d-block img-fluid" alt="Responsive"/>
                               </div>
 
                               <div className="tab-pane fade" id="crud-personal-webapp" role="tabpanel" aria-labelledby="crud-personal-webapp">
                                   <a href="https://github.com/sagiGL/crud_PersonalTable" ><h2>CRUD Functionality Web App <div className="fa fa-github"> </div></h2></a>
                                   <p>A simple and pure JavaScript implementation for CRUD application</p>
-                                  <img src="https://i.imgur.com/xPIrqQN.png" className="rounded mx-auto d-block img-fluid" alt="Responsive"></img>
+                                  <img src="https://i.imgur.com/xPIrqQN.png" className="rounded mx-auto d-block img-fluid" alt="Responsive"/>
                               </div>
 
                               <div className="tab-pane fade" id="react-sticky-notes" role="tabpanel" aria-labelledby="react-sticky-notes">
                                   <a href="https://github.com/sagiGL/react-stick-notes" ><h2>Sticky notes with React <div className="fa fa-github"> </div></h2></a>
                                   <p>A simple React implementation for Sticky Notes </p>
-                                  <img src="https://i.imgur.com/guSlVYb.png" className="rounded mx-auto d-block img-fluid" alt="Responsive"></img>
+                                  <img src="https://i.imgur.com/guSlVYb.png" className="rounded mx-auto d-block img-fluid" alt="Responsive"/>
                               </div>
 
                               <div className="tab-pane fade" id="web-list" role="tabpanel" aria-labelledby="web-list">
                                   <a href="https://github.com/sagiGL/WebList" ><h2>Web List <div className="fa fa-github"> </div></h2></a>
                                   <p>Simple to do list with sort functionality</p>
-                                  <img src="https://i.imgur.com/jD0xOLZ.png" className="rounded mx-auto d-block img-fluid" alt="Responsive"></img>
+                                  <img src="https://i.imgur.com/jD0xOLZ.png" className="rounded mx-auto d-block img-fluid" alt="Responsive"/>
                               </div>
 
                               <div className="tab-pane fade" id="login-page" role="tabpanel" aria-labelledby="login-page">
                                   <a href="https://github.com/sagiGL/loginTrialAngularJS" ><h2>Angular + FireBase DB Register & Auth <div className="fa fa-github"> </div></h2></a>
                                   <p>A simple login page with register option  with server authentication using good FireBase database </p>
-                                  <img src="https://i.imgur.com/Fn9rCCO.jpg" className="rounded mx-auto d-block img-fluid" alt="Responsive"></img>
-                              </div>
-
-                              <div className="tab-pane fade" id="format-function" role="tabpanel" aria-labelledby="format-function">
-                                  <a href="https://github.com/sagiGL/Edge226-FED-mission-application" ><h2>format function <div  className="fa fa-github"> </div></h2></a>
-                                  <p>A simple and pure JavaScript implementation for Formating Strings like we have in C</p>
-                                  <img src="https://i.imgur.com/b3eUUzA.png" className="rounded mx-auto d-block img-fluid" alt="Responsive"></img>
+                                  <img src="https://i.imgur.com/Fn9rCCO.jpg" className="rounded mx-auto d-block img-fluid" alt="Responsive"/>
                               </div>
 
                               <div className="tab-pane fade" id="garage-manager" role="tabpanel" aria-labelledby="garage-manager">
@@ -136,7 +136,7 @@ class Portfolio extends Component {
                               <div className="tab-pane fade" id="hanuka-playlist" role="tabpanel" aria-labelledby="hanuka-playlist">
                                   <a href="https://github.com/sagiGL/Hiposoft_HanukaSong" ><h2>Hanuka Song Playlist <div  className="fa fa-github"> </div></h2></a>
                                   <p>A .NET C# MVC project which is a music songs playlist with search bar and adding data functionality.</p>
-                                      <img src="https://i.imgur.com/GWOMcOM.jpg" className="rounded mx-auto d-block img-fluid" alt="Responsive"></img>
+                                      <img src="https://i.imgur.com/GWOMcOM.jpg" className="rounded mx-auto d-block img-fluid" alt="Responsive"/>
 
                               </div>
 
